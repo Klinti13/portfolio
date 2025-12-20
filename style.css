@@ -117,9 +117,10 @@ footer {
     }
 
     .navbar {
-        flex-direction: column;
+        flex-direction: row;
         gap: 1rem;
     }
 
 }
+
 
