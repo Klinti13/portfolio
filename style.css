@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Klinti's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="navbar">
+            <div class="brand">
+                <a href="#">Klinti</a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+
+        <section class="about">
+            <div class="about-text">
+                <h1>Hi, I'm Klinti</h1>
+                <p>I’m a Computer Engineering graduate with a strong interest in web development, data, and
+                    problem-solving.</p>
+                <p>I enjoy building practical projects using JavaScript, SQL, and modern web technologies.</p>
+                <p>I’m continuously learning, experimenting with new tools, and improving my skills through real
+                    projects.</p>
+                <p>This portfolio showcases some of my work and learning journey.</p>
+            </div>
+
+            <div class="about-image">
+                <img src="images/happyman.avif" alt="Profile photo">
+            </div>
+        </section>
+
+
+        <section class="skills-section">
+            <div class="skills">
+                <h2>Skills</h2>
+                <p>I work mainly with JavaScript and enjoy building interactive, responsive web experiences.</p>
+                <p>I’m comfortable working with SQL and databases, writing clear queries.</p>
+                <p>I like clean code, logical problem-solving, and learning by doing.</p>
+            </div>
+
+            <div id="skillslogo">
+                <ul>
+                    <li><i class="fa-brands fa-js" style="color: #FFD43B;"></i></li>
+                    <li><i class="fa-solid fa-database" style="color: #63E6BE;"></i></li>
+                    <li><i class="fa-brands fa-html5" style="color: #FFD43B;"></i></li>
+                    <li><i class="fa-brands fa-css3" style="color: #28A745;"></i></li>
+                    <li><i class="fa-brands fa-bootstrap" style="color: #7952B3;"></i></li>
+                    <li><i class="fa-brands fa-react" style="color: #61DBFB;"></i></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+
+            <p><strong>Master of Science in Computer Engineering</strong></p>
+            <p>European University of Tirana</p>
+            <p>2022 – 2024</p>
+
+            <p><strong>Bachelor in Computer Engineering</strong></p>
+            <p>European University of Tirana</p>
+            <p>2019 – 2022</p>
+        </section>
+
+        <section class="experience">
+            <h2>Experience</h2>
+            <p><strong>Junior Developer / Self-Driven Projects</strong></p>
+            <p>2019 – Present</p>
+            <p>Worked on personal and academic projects focused on web development and data handling.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Klinti Portfolio</p>
+    </footer>
+
+</body>
+
+</html>
