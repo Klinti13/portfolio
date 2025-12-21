@@ -219,11 +219,18 @@ h2 {
         text-align: flex-start;
         font-size: 0.5rem;
     }
+    .project1 a,
+    .project2 a,
+    .project3 a {
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
 
+    }
     header {
         background-color: #011818;
     }
 }
+
 
 
 
