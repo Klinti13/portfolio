@@ -163,7 +163,6 @@ footer {
     justify-content: space-around;
     align-items: center;
     gap: 1rem;
-    margin-right: 1rem;
 
 }
 
@@ -185,9 +184,6 @@ h2 {
     font-weight: normal;
 }
 
-.contact a {
-    margin-right: 1rem;
-}
 
 
 @media (max-width: 768px) {
@@ -228,5 +224,6 @@ h2 {
         background-color: #011818;
     }
 }
+
 
 
