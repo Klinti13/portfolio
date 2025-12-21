@@ -145,7 +145,10 @@ footer {
     .educationexperience {
         flex-direction: row;
         justify-content: space-around;
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
+    #skillslogo i {
+        font-size: 1.5rem;
+        }
 }
 
