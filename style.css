@@ -12,6 +12,7 @@ header {
     padding: 20px 40px;
     position: fixed;
     width: 95%;
+    background-color: #011818;
 }
 
 .navbar {
@@ -112,7 +113,7 @@ main {
 .education,
 .experience {
     text-align: center;
-    border: 1px solid #ddffff;
+    border: 1px solid #333d3d;
     padding: 1rem;
     border-radius: 10px;
 }
@@ -129,9 +130,54 @@ footer {
 
 .projects {
     display: flex;
-    flex-direction: column;
-    text-align: flex-start;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4rem;
 }
+
+.project1 {
+    border: 1px solid #333d3d;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.project2 {
+    border: 1px solid #333d3d;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.project3 {
+    border: 1px solid #333d3d;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.project1 i,
+.project2 i,
+.project3 i {
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+
+}
+
+p {
+    font-weight: lighter;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: normal;
+}
+
 
 @media (max-width: 768px) {
     main {
@@ -162,8 +208,9 @@ footer {
 
     .projects {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         text-align: flex-start;
+        font-size: 0.5rem;
     }
 
     header {
