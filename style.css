@@ -139,6 +139,7 @@ footer {
 
     .navbar {
         flex-direction: row;
+        font-size: 0.9rem;
         gap: 1rem;
     }
 
