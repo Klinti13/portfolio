@@ -88,7 +88,6 @@ main {
     padding: 0;
     margin: 0;
     justify-content: space-between;
-    margin-right: 2rem;
 }
 
 #skillslogo i {
@@ -229,4 +228,5 @@ h2 {
         background-color: #011818;
     }
 }
+
 
