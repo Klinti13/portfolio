@@ -1,7 +1,7 @@
 html {
     background-color: #011818;
-    font-family: 'Roboto Condensed';
     color: #ddffff;
+    font-family: 'Roboto Condensed';
 }
 
 body {
@@ -10,6 +10,8 @@ body {
 
 header {
     padding: 20px 40px;
+    position: fixed;
+    width: 95%;
 }
 
 .navbar {
@@ -48,12 +50,14 @@ main {
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    font-size: 1.2rem;
 }
 
 .about {
     display: flex;
     align-items: center;
     gap: 4rem;
+    margin-top: 50px;
 }
 
 .about-text {
@@ -63,7 +67,6 @@ main {
 .about p {
     margin-bottom: 1rem;
 }
-
 
 .skills-section {
     display: flex;
@@ -79,21 +82,39 @@ main {
 
 #skillslogo ul {
     list-style: none;
-    display: grid;
-    grid-template-columns: repeat(3, 60px);
-    gap: 1.5rem;
+    display: flex;
+    gap: 2.5rem;
     padding: 0;
     margin: 0;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+#skillslogo i {
+    font-size: 3rem;
+    transition: transform 0.2s ease;
+
+}
+
+#skillslogo i:hover {
+    transform: scale(1.2);
 }
 
 #skillslogo img {
-    width: 50px;
+    width: 200px;
+}
+
+.educationexperience {
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
 }
 
 .education,
 .experience {
     text-align: center;
+    border: 1px solid #ddffff;
+    padding: 1rem;
+    border-radius: 10px;
 }
 
 .education p,
@@ -121,6 +142,9 @@ footer {
         gap: 1rem;
     }
 
+    .educationexperience {
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
-
 
