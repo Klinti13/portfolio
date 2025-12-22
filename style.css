@@ -208,7 +208,7 @@ h2 {
     z-index: 1;
     left: 0;
     top: 0;
-    width: 95%;
+    width: 100%;
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.4);
@@ -265,20 +265,19 @@ h2 {
     }
 
     .projects {
-        grid-template-columns: repeat(3, 1fr);
-        text-align: center;
-        align-items: center;
-        font-size: 0.6rem;
-
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 20px;
     }
 
     .project1,
     .project2,
     .project3 {
-        height: 120px;
-        width: 65px;
-        padding: 25px;
-        border-radius: 16px;
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        padding: 20px;
+        font-size: 0.9rem;
     }
 
     .project1 a,
