@@ -230,7 +230,8 @@ h2 {
     }
 
     .projects {
-        grid-template-columns: repeat(1fr);
+        flex-direction: row;
+        justify-content: space-around;
         text-align: center;
         align-items: center;
         font-size: 0.5rem;
