@@ -263,6 +263,8 @@ h2 {
 
     header {
         background-color: #011818;
+        top: 0;
+        left: 0;
     }
 }
 
