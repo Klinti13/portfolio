@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <script src="index.js" defer></script>
 </head>
 
 <body>
@@ -19,13 +20,15 @@
     <header>
         <nav class="navbar">
             <div class="brand">
-                <a href="#">Klinti</a>
+                <a href="#about">Klinti</a>
             </div>
 
             <ul class="nav-links">
-                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                <li><a target='_blank' href="https://github.com/Klinti13"><i class="fa-brands fa-github"></i></a></li>
+                <li><a target='_blank' href="https://linkedin.com/in/klinti-bodurri-472a9228a"><i
+                            class="fa-brands fa-linkedin"></i></a></li>
+                <li><a target='_blank' href="mailto:klinti.bodurri@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -34,7 +37,7 @@
     <main>
 
 
-        <section class="about">
+        <section class="about" id="about">
             <div class="about-text">
                 <h1>Hi, I'm Klinti</h1>
                 <p>I’m a Computer Engineering graduate with a strong interest in web development, data, and
@@ -123,15 +126,28 @@
             <h2>Contact</h2>
             <p>Let's connect and explore opportunities together</p>
             <p>Email: klinti.bodurri@gmail.com</p>
-            <a href="https://linkedin.com/in/klinti"><i class="fa-brands fa-linkedin" style="color: #ddffff;"></i></a>
-            <a href="https://github.com/Klinti13"><i class="fa-brands fa-github" style="color: #ddffff;"></i></a>
-            <a href="mailto:klinti.bodurri@gmail.com"><i class="fa-solid fa-envelope" style="color: #ddffff;"></i></a>
+            <a target='_blank' href="https://linkedin.com/in/klinti-bodurri-472a9228a"><i class="fa-brands fa-linkedin"
+                    style="color: #ddffff;"></i></a>
+            <a target='_blank' href="https://github.com/Klinti13"><i class="fa-brands fa-github"
+                    style="color: #ddffff;"></i></a>
+            <a target='_blank' href="mailto:klinti.bodurri@gmail.com"><i class="fa-solid fa-envelope"
+                    style="color: #ddffff;"></i></a>
         </section>
     </main>
 
     <footer>
         <p>© 2025 Klinti Portfolio</p>
     </footer>
+
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1 id="modalTitle"></h1>
+            <p id="modalDescription"></p>
+
+        </div>
+    </div>
+
 
 </body>
 
