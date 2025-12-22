@@ -222,6 +222,9 @@ h2 {
     width: 80%;
     border-radius: 16px;
 }
+#modalIcons {
+  gap: 20px; 
+}
 
 .close {
     color: #aaa;
