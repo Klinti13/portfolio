@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    padding: 20px 40px;
+    padding: 1.5rem 4rem;
     position: fixed;
     width: 95%;
     background-color: #011818;
@@ -208,7 +208,7 @@ h2 {
     z-index: 1;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 95%;
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.4);
@@ -298,8 +298,6 @@ h2 {
 
     header {
         background-color: #011818;
+        padding: 2rem 2rem;
     }
 }
-
-
-
