@@ -167,12 +167,6 @@ footer {
     cursor: pointer;
 }
 
-.project1:hover,
-.project2:hover,
-.project3:hover {
-    transform: scale(1.1);
-}
-
 .project1 a,
 .project2 a,
 .project3 a {
@@ -306,5 +300,6 @@ h2 {
         background-color: #011818;
     }
 }
+
 
 
