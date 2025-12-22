@@ -11,7 +11,7 @@ body {
 header {
     padding: 20px 40px;
     position: fixed;
-    width: 100%;
+    width: 95%
     background-color: #011818;
 }
 
@@ -261,10 +261,6 @@ h2 {
     }
 
 
-    header {
-
-        
-    }
 }
 
 
