@@ -259,7 +259,12 @@ h2 {
         height: 140px;
         font-size: 0.5rem;
     }
-
+    header {
+        background-color: #011818; 
+        top: 0; 
+        left: 0;
+        padding: 0 20px;
+}
 
 }
 
