@@ -220,6 +220,7 @@ h2 {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    height: auto;
     border-radius: 16px;
 }
 #modalIcons {
