@@ -23,5 +23,5 @@ I enjoy learning new technologies and continuously improving my skills.
 👉 [View Portfolio](https://klinti13.github.io/portfolio/#)
 
 ## 🔹 Contact
-- GitHub: https://github.com/USERNAME
-- Email: your.email@example.com
+- GitHub: https://github.com/Klinti13
+- Email: klinti.bodurri@gmail.com
