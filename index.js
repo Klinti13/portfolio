@@ -47,6 +47,13 @@ const projectData = {
         description: "High-performance landing page with modern CSS architecture. Focuses on semantic HTML, responsive layout, and cross-browser compatibility without heavy frameworks.",
         link: "https://klinti13.github.io/static-website/",
         icons: `<i class="fa-brands fa-html5" style="color: #d47408;"></i> <i class="fa-brands fa-css3" style="color: #28A745;"></i>`
+    },
+    projekt7: {
+    title: "E-Market",
+    subTitle: "Detailed Description:",
+    description: "E-Market redefines everyday shopping through a minimal aesthetic and modern architecture, delivering a superior view with every click.",
+    link: "https://klinti13.github.io/E-Market/",
+    icons:`<i class="fa-brands fa-react" style="color: #61DBFB;"></i> <i class="fa-brands fa-square-js" style="color: #3178C6;"></i> <i class="fa-solid fa-wind" style="color: #38BDF8;"></i>`
     }
 };
 
