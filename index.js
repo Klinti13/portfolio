@@ -53,7 +53,7 @@ const projectData = {
     subTitle: "Detailed Description:",
     description: "E-Market redefines everyday shopping through a minimal aesthetic and modern architecture, delivering a superior view with every click.",
     link: "https://klinti13.github.io/E-Market/",
-    icons:`<i class="fa-brands fa-react" style="color: #61DBFB;"></i> <i class="fa-brands fa-typescript" style="color: #3178C6;"></i> <i class="fa-brands fa-tailwind-css" style="color: #38BDF8;"></i>`
+    icons:`<i class="fa-brands fa-react" style="color: #61DBFB;"></i> <i class="devicon-typescript" style="color: #3178C6;"></i> <i class="devicon-tailwindcss" style="color: #38BDF8;"></i>`
     }
 };
 
