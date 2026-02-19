@@ -48,7 +48,7 @@ const projectData = {
         link: "https://klinti13.github.io/static-website/",
         icons: `<i class="fa-brands fa-html5" style="color: #d47408;"></i> <i class="fa-brands fa-css3" style="color: #28A745;"></i>`
     },
-    projekt7: {
+    project7: {
     title: "E-Market",
     subTitle: "Detailed Description:",
     description: "E-Market redefines everyday shopping through a minimal aesthetic and modern architecture, delivering a superior view with every click.",
